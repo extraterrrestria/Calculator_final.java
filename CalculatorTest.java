@@ -5,7 +5,6 @@ import org.junit.jupiter.api.DisplayName;
 
 public class CalculatorTest {
 
-
     @Test
     @DisplayName("Ensure correct handling of 1 basic operation")
     public void testAddition() {
