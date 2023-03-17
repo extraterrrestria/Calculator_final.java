@@ -75,6 +75,8 @@ class Calculator {
 
     public static String solve(String expression) {
         String[] elements = expression.split(" ");
+        numberStack.clear();
+        operatorStack.clear();
 
         for (String element : elements) { //for (int i = 0;  i < elements.length; i++)
             if (priority(element) == 1) {
